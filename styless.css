@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #121212; /* Cor de fundo mais escura */
+    color: #FFFFFF; /* Cor do texto em branco */
+    overflow: hidden;
+}
+
+.texto-vr {
+    font-size: 20em;
+    color: #FFFFFF; /* Cor do texto em branco */
+    font-family: Arial, sans-serif; /* Fonte personalizável */
+    font-weight: bold; /* Texto em negrito */
+    user-select: none; /* Impede a seleção de texto */
+    position: relative; /* Habilita posicionamento relativo */
+}
+
+.letra-r {
+    position: absolute; /* Habilita posicionamento absoluto */
+    left: 150px; /* Ajusta a posição horizontal da letra "R" */
+}
+
+.numero-1 {
+    position: absolute; /* Habilita posicionamento absoluto */
+    font-size: 2em;
+    top: -170px;
+    right: -160px;
+    transform: rotate(90deg); /* Gira o número "1" 90 graus */
+    color: #FF5733; /* Cor personalizável para o número "1" */
+    font-weight: bold; /* Texto em negrito para o número "1" */
+}
+
+.parallax-bg {
+    background-image: url('papel-de-parede-abstrato-ultra-detalhado-da-nebulosa-4.jpg'); /* Substitua pelo caminho da sua imagem de alta resolução */
+    background-size: cover;
+    height: 130vh;
+    width: 130%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Coloca a imagem de fundo atrás do conteúdo */
+    animation: moverFundo 40s ease-in-out infinite; /* Configuração da animação */
+}
+
+.conteudo {
+    padding: 100px;
+    padding-left: 0;/* Espaçamento para o conteúdo */
+    /* Adicione o conteúdo do seu site aqui */
+}
+
+@keyframes moverFundo {
+    0% {
+        transform: translate(0, 0);
+    }
+    25% {
+        transform: translate(-5%, -5%);
+    }
+    50% {
+        transform: translate(-10%, -10%);
+    }
+    75% {
+        transform: translate(-5%, -5%);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
