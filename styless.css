@@ -68,3 +68,41 @@ body {
         transform: translate(0, 0);
     }
 }
+
+/* CSS for the login form */
+.login-section {
+    background-color: darkblue;
+    border: 2px solid blue;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    width: 300px;
+    color: white;
+}
+
+.login-section h2 {
+    text-align: center;
+}
+
+.login-section label, .login-section input {
+    display: block;
+    margin: 10px 0;
+}
+
+.login-section input[type="text"], .login-section input[type="password"] {
+    padding: 5px;
+    width: 100%;
+}
+
+.login-section input[type="submit"] {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.login-section input[type="submit"]:hover {
+    background-color: lightblue;
+    color: black;
+}
