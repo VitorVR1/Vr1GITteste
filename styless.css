@@ -49,6 +49,7 @@ body {
 .conteudo {
     padding: 100px;
     padding-left: 0;/* Espaçamento para o conteúdo */
+    max-height: 400px;
     /* Adicione o conteúdo do seu site aqui */
 }
 
