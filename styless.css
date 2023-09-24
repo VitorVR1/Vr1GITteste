@@ -81,6 +81,7 @@ body {
     margin-top: 20px;
     width: 300px;
     color: white;
+
 }
 
 .login-section h2 {
@@ -89,7 +90,7 @@ body {
 }
 
 .login-section label, .login-section input {
-    display: block;
+    display: flex;
     margin: 1px 0;
 }
 
@@ -110,7 +111,7 @@ body {
     background-color: lightblue;
     color: black;
 }
-
 .login-form {
-    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
