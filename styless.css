@@ -87,6 +87,7 @@ body {
 .login-section h2 {
     text-align: center;
     margin: 0;
+    user-select: none;
 }
 
 .login-section label, .login-section input {
@@ -105,6 +106,10 @@ body {
     border: none;
     padding: 10px 20px;
     cursor: pointer;
+    margin: 3px;
+    margin-top: 0px;
+    width: 100px;
+    justify-content: center;
 }
 
 .login-section input[type="submit"]:hover {
@@ -116,4 +121,8 @@ body {
     flex-direction: column;
     align-items: center;
     margin-top: 10px;
+}
+.submit-inputs {
+    display: flex;
+    
 }

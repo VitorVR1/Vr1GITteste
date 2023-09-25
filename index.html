@@ -1,28 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Texto com Número</title>
     <link rel="stylesheet" type="text/css" href="./styless.css">
 </head>
+
 <body>
     <div class="parallax-bg"></div>
     <div class="conteudo">
         <div class="texto-vr">
-        <span class="numero-1">1</span>
-        <span class="letra-v">V</span>
-        <span class="letra-r">R</span>
+            <span class="numero-1">1</span>
+            <span class="letra-v">V</span>
+            <span class="letra-r">R</span>
         </div>
     </div>
     <div class="login-section">
         <h2>Login</h2>
-        <form class="login-form"action="/login" method="post">
-            <input type="text" id="username" name="username"><br>
-            <input type="password" id="password" name="password"><br>
-            <input type="submit" value="Submit">
-        </form> 
+        <form class="login-form" action="/login" method="post">
+            <input type="text" id="username" placeholder="Usuário" name="username"><br>
+            <input type="password" id="password" placeholder="Senha" name="password"><br>
+            <div class="submit-inputs">
+                <input type="submit" value="Visitante">
+                <input type="submit" value="Submit">
+            </div>
+
+        </form>
     </div>
-    
+
 </body>
+
 </html>
